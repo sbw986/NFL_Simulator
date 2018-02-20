@@ -4,10 +4,10 @@
                       teams.  Using the classifier and outcome probabilities, football
                       drives are simulated. """
 
-import math
+#import math
 import random
 import warnings
-import graphviz
+#import graphviz
 import os.path
 import numpy as np
 import pandas as pd
@@ -17,11 +17,11 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multioutput import MultiOutputClassifier
 from scipy.stats import gamma
-from sklearn.mixture import GaussianMixture
+#from sklearn.mixture import GaussianMixture
 from sklearn.cross_validation import train_test_split
 from copy import deepcopy
-from scipy.stats import norm
-from sklearn.tree import export_graphviz
+#from scipy.stats import norm
+#from sklearn.tree import export_graphviz
 
 
 def reimport_data(reimport = False):
